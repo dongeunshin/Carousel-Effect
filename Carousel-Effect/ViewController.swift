@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //
+        //초기 위치
         if let layout = cardListCollectionView.collectionViewLayout as? UICollectionViewFlowLayout {
             let xInset = (cardListCollectionView.bounds.width - layout.itemSize.width) / 2
             let yInset = layout.itemSize.height / 2
