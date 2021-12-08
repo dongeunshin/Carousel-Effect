@@ -16,6 +16,7 @@
 		7CAEEAEE276088F700081D18 /* Carousel_EffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAEEAED276088F700081D18 /* Carousel_EffectTests.swift */; };
 		7CAEEAF8276088F700081D18 /* Carousel_EffectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAEEAF7276088F700081D18 /* Carousel_EffectUITests.swift */; };
 		7CAEEAFA276088F700081D18 /* Carousel_EffectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAEEAF9276088F700081D18 /* Carousel_EffectUITestsLaunchTests.swift */; };
+		7CAEEB0727608BC300081D18 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAEEB0627608BC300081D18 /* CardCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7CAEEAF3276088F700081D18 /* Carousel-EffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Carousel-EffectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CAEEAF7276088F700081D18 /* Carousel_EffectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel_EffectUITests.swift; sourceTree = "<group>"; };
 		7CAEEAF9276088F700081D18 /* Carousel_EffectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel_EffectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7CAEEB0627608BC300081D18 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		7CAEEAD5276088F600081D18 /* Carousel-Effect */ = {
 			isa = PBXGroup;
 			children = (
+				7CAEEB0627608BC300081D18 /* CardCollectionViewCell.swift */,
 				7CAEEAD6276088F600081D18 /* AppDelegate.swift */,
 				7CAEEAD8276088F600081D18 /* SceneDelegate.swift */,
 				7CAEEADA276088F600081D18 /* ViewController.swift */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CAEEB0727608BC300081D18 /* CardCollectionViewCell.swift in Sources */,
 				7CAEEADB276088F600081D18 /* ViewController.swift in Sources */,
 				7CAEEAD7276088F600081D18 /* AppDelegate.swift in Sources */,
 				7CAEEAD9276088F600081D18 /* SceneDelegate.swift in Sources */,
